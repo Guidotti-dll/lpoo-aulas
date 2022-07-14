@@ -1,6 +1,7 @@
-package br.edu.ifsul.model;
+package br.edu.ifsul.aula1.model;
 
-class Person {
+public class Person {
+    private int id;
     private String name ;
     private int age;
 
@@ -8,6 +9,12 @@ class Person {
     public Person() {}
 
     public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public Person(int id, String name, int age) {
+        this.id = id;
         this.name = name;
         this.age = age;
     }
@@ -32,8 +39,16 @@ class Person {
         this.age = age;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
-        return "Person{ name:" + name + " / age:" + age + "}";
+        return "Person{ name:" + name + " / age:" + age + "} \n";
     }
 }
