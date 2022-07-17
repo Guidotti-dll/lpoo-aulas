@@ -27,7 +27,7 @@ public class Main {
         Person person3 = new Person(3,"valter",  22);
         System.out.println(person3);
 
-        System.out.println("\n\nManipulando coleções");
+        System.out.println("\n\nManipulangit do coleções");
 
         List<Person> persons = new ArrayList<>();
 
