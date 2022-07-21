@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="208ffc1e-15ae-49be-9c12-5622d50afebf" name="Changes" comment="" />
+    <list default="true" id="208ffc1e-15ae-49be-9c12-5622d50afebf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../exercicio1/src/br/edu/ifsul/exec1/controllers/CarroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio1/src/br/edu/ifsul/exec1/models/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio1/src/br/edu/ifsul/exec1/models/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio1/src/br/edu/ifsul/exec1/models/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercicio1/src/br/edu/ifsul/exec1/models/Produto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +41,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RunManager" selected="Application.br.edu.ifsul.aula1.controller.Main">
@@ -84,6 +91,8 @@
       <workItem from="1657798804878" duration="2066000" />
       <workItem from="1657800919972" duration="6591000" />
       <workItem from="1658073222449" duration="892000" />
+      <workItem from="1658370063820" duration="2093000" />
+      <workItem from="1658404252253" duration="633000" />
     </task>
     <servers />
   </component>
