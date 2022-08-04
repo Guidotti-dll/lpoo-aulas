@@ -1,8 +1,8 @@
-package br.edu.edu.exec3.model;
+package model;
 
 public abstract class Funcionario {
-    protected String nome;
-    protected double salario;
+    private String nome;
+    private double salario;
 
     public Funcionario() {
     }
@@ -28,13 +28,5 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-    public abstract double getBonus() ;
-
-    @Override
-    public String toString() {
-        return "\nFuncionario{" +
-                "nome='" + nome + '\'' +
-                ", salario=" + salario +
-                '}';
-    }
+    public abstract double getBonus();
 }
