@@ -13,7 +13,10 @@ public class ContaCorrente extends Conta implements AssociadoVip{
     public ContaCorrente(double saldo) {
         super(saldo);
     }
-
+    public ContaCorrente(double saldo, int cota) {
+        super(saldo);
+        this.cota = cota;
+    }
     @Override
     public double lucros(int qntCotas, double valorCota) {
         double lucros = qntCotas * valorCota;

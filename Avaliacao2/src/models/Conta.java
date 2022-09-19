@@ -2,7 +2,7 @@ package models;
 
 import java.text.NumberFormat;
 
-public abstract class  Conta {
+public abstract class Conta {
 
     public Conta() {
     }
