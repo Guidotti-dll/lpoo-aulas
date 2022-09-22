@@ -13,6 +13,10 @@ public abstract class Conta {
 
     protected double saldo;
 
+    public double getSaldo() {
+        return saldo;
+    }
+
     public void deposita(double valor) {
         this.saldo += valor;
     }
@@ -25,13 +29,13 @@ public abstract class Conta {
     }
 
     public void atualiza(double taxa){
-        this.saldo = this.saldo = (this.saldo * (taxa/100));
+        this.saldo = this.saldo + (this.saldo * (taxa/100));
     }
 
     @Override
     public String toString() {
         return "Conta{" +
-                "saldo=" + NumberFormat.getCurrencyInstance().format(saldo) +
+                "saldo=" + saldo +
                 '}';
     }
 }

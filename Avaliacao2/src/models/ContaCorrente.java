@@ -17,6 +17,11 @@ public class ContaCorrente extends Conta implements AssociadoVip{
         super(saldo);
         this.cota = cota;
     }
+
+
+    public void setCotaQuantity(int cota) {
+        this.cota = cota;
+    }
     @Override
     public double lucros(int qntCotas, double valorCota) {
         double lucros = qntCotas * valorCota;
@@ -24,10 +29,15 @@ public class ContaCorrente extends Conta implements AssociadoVip{
     }
 
     @Override
+    public int getCota() {
+        return cota;
+    }
+
+    @Override
     public String toString() {
         return "ContaCorrente{" +
                 "cota=" + cota +
-                ", saldo=" + NumberFormat.getCurrencyInstance().format(saldo) +
+                ", saldo=" + saldo +
                 '}';
     }
 }
