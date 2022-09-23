@@ -11,10 +11,10 @@ public class BaseDAO {
         try {
             //a string com a url para o banco de dados
             //sintaxe: protocolo:tecnologia://domínioDoServidor:porta/database
-            final String url = "jdbc:mariadb://localhost:3306/vendas";
+            final String url = "jdbc:mariadb://localhost:3306/advogados";
             //argumentos: url para o banco, usuário, senha.
             //retorna um objeto da classe Connection (do pacote java.sql -> que segue a especificação JDBC).
-            return DriverManager.getConnection(url, "mariadb-user", "password");
+            return DriverManager.getConnection(url, "root", "password-root");
         } catch (SQLException e) {
             e.printStackTrace();
             return null; //se não conectar, retorna null.
